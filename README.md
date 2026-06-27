@@ -2,7 +2,7 @@
 
 A CNN-based deep learning model for automatic colorization of black-and-white photographs. Given a grayscale image, the model predicts plausible, contextually appropriate color and reconstructs a full-color output.
 
-![Colorized result](Report%20img/result1.png)
+![Colorized result](Report%20img/results1.png)
 *Left: grayscale input. Right: model output.*
 
 ## Overview
@@ -41,7 +41,7 @@ Input (grayscale, 1 channel)
 
 Training loss decreased steadily over 400 epochs, reaching a final value of **0.0011**, with a smooth, stable convergence curve (no divergence or instability observed).
 
-![Training loss curve](Report%20img/loss_graph.png)
+![Training loss curve](Image%20colorization/loss_graph.png)
 
 Qualitatively, the model generalized well to unseen test images, particularly landscapes and portraits — vegetation rendered green, skies blue, and skin tones realistic, suggesting the model learned genuine contextual associations between textures/objects and plausible colors rather than memorizing specific images.
 
